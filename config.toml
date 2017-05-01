@@ -1,0 +1,35 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://127.0.0.1/"
+canonifyurls = true
+title = "I love code"
+author = "dashatou"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+theme = "hugo-theme-bleak"
+
+[params]
+  # Warning Keys are case sensitives
+  Subtitle = "think about slogan!"
+  description = "Everything is awesome !"
+  cover = "/images/cover.jpg"
+
+  # Google analytics
+  googleAnalyticsUserID = "UA-xxxxxxxx-x"
+  domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+  disqus = "xxxxxxxxx"
+
+  [params.author]
+    firstName = "qiu"
+    lastName = "shi"
+    gender = "(fe)?male"
+    userName = "dashatou"
+    image = "/images/me.png"
+    website = "https://www.foo.com"
+    #twitter = "xxxxxxx"
+    github = "dashatou"
+    #facebook = "xxxxxxxxx"
+    #linkedin = "xxxxxxxxx"
+    #gplus = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    gravatarHash = "26cd3a85c136ac4501ca10de123e039b"
